@@ -1,0 +1,101 @@
+.nav-bar{
+  height: 100px;
+  background-color: #FF7C7C;
+overflow: hidden;
+border-style: solid;
+  text-align: center;
+}
+
+.links{
+    margin-top: 40px;
+}
+
+.nav-bar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-bar a:hover {
+  background-color: #E9D5CA;
+  color: black;
+  text-decoration: underline;
+}
+
+.nav-bar a.active {
+  background-color: #FF0063;
+  color: white;
+}
+body{
+  background-color: #FE8F8F;
+}
+.cv h1{
+  text-align: center;
+  color: rgb(51,51,51);
+  font-family: 'Roboto Slab', serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+.vid-box {
+  display: flex;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: purple;
+
+}
+
+.vid-box video {
+  border-style: solid;
+  border-color: red;
+  margin-top: 5px;
+}
+
+.vid-box p{
+padding-left: 10px;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 18px;
+line-height: 32px;
+color : rgb(51,51,51)
+}
+.vid-box h2{
+  padding-left: 10px;
+  color: rgb(51,51,51);
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 767px) {
+    .vid-box{
+      display: block;
+      word-wrap: break-word;
+      width: 100%;
+      text-align: center;
+    }
+    .vid-box video{
+
+      border-style: solid;
+      border-color: red;
+    }
+
+    .vid-box p {
+      text-align: left;
+      font-size: 12 px;
+    }
+
+    .vid-box h2{
+      font-size: 28px;
+    }
+
+    .cv h1{
+      font-size: 36px;
+    }
+
+  }
+
+.ft{
+  text-align: center;
+  color: black;
+}

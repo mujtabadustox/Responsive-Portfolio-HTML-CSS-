@@ -1,0 +1,87 @@
+.nav-bar{
+  height: 100px;
+  background-color: #FF7C7C;
+overflow: hidden;
+border-style: solid;
+  text-align: center;
+}
+
+.links{
+    margin-top: 40px;
+}
+
+.nav-bar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-bar a:hover {
+  background-color: #E9D5CA;
+  color: black;
+  text-decoration: underline;
+}
+
+.nav-bar a.active {
+  background-color: #FF0063;
+  color: white;
+}
+
+body{
+  background-color: #FFD59E;
+}
+
+.content h1{
+  text-align:center;
+  color: rgb(51,51,51);
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.tt {
+  border : 2px solid;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+
+}
+
+@media (max-width: 767px) {
+    .tt-content {
+      overflow-x:auto;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+
+.tt tr{
+  box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.tt td {
+    border-left:1px solid black;
+}
+
+.tt th {
+    border-left:1px solid black;
+}
+.ft{
+  text-align: center;
+  color: black;
+}
+
+.content{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color : rgb(51,51,51)
+}
