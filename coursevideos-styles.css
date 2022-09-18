@@ -1,0 +1,49 @@
+.nav-bar{
+  height: 100px;
+  background-color: #FF7C7C;
+overflow: hidden;
+border-style: solid;
+  text-align: center;
+}
+
+.links{
+    margin-top: 40px;
+}
+
+.nav-bar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-bar a:hover {
+  background-color: #E9D5CA;
+  color: black;
+  text-decoration: underline;
+}
+
+.nav-bar a.active {
+  background-color: #FF0063;
+  color: white;
+}
+body{
+  background-color: #FE8F8F;
+}
+.cv h1{
+  text-align: center;
+}
+.vid-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+.vid-box p{
+padding-left: 10px;
+}
+.vid-box h2{
+  padding-left: 10px;
+}
+.ft{
+  text-align: center;
+  color: black;
+}

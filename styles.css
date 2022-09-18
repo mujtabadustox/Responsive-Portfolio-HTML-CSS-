@@ -1,0 +1,138 @@
+body{
+  background-color: #DDBEBE;
+}
+
+.nav-bar{
+  height: 100px;
+  background-color: #FF7C7C;
+overflow: hidden;
+border-style: solid;
+  text-align: center;
+}
+
+.links{
+    margin-top: 40px;
+}
+
+.nav-bar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-bar a:hover {
+  background-color: #E9D5CA;
+  color: black;
+  text-decoration: underline;
+}
+
+.nav-bar a.active {
+  background-color: #FF0063;
+  color: white;
+}
+
+.header-div {
+  height: 500px;
+  background-color: #A460ED;
+  border-style: solid;
+}
+.content{
+  display: inline-block;
+  margin-top: 100px;
+}
+.info{
+    display: flex;
+      align-items: center;
+  justify-content: space-between;
+}
+
+.title{
+  color: #EBC7E8;
+  text-align: center;
+}
+
+.title-pic {
+  border-radius: 100%;
+  margin-left: 100px;
+  width: 20%;
+}
+
+.menu ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 170px;
+  padding: 10px 25px;
+
+}
+
+.content a{
+  color: white;
+  text-decoration: none;
+}
+.content a:hover {
+  text-decoration:underline;
+}
+.projects{
+  border-style: solid;
+  background-color: #00cec9;
+}
+.proj-content{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects h2{
+text-align: center;
+}
+.project-child{
+  display: inline-block;
+}
+.project-child1 {
+  display: inline-block;
+  margin-top: 20px;
+}
+.card {
+  border-radius: 25px;
+  position: relative;
+  background-color: #B9F8D3;
+  box-shadow: 0 2px 5px #ccc;
+  max-width: 400px;
+  padding: 25px 15px;
+  display: inline-block;
+}
+
+.card h3{
+  text-align: center;
+}
+
+.card p{
+  text-align: left;
+}
+.work{
+  border-style: solid;
+  background-color: #FE83C6;
+}
+.work h2{
+  text-align: center;
+}
+.work-content{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tab{
+  margin-left: auto;
+  margin-right: auto;
+}
+.card1 {
+  border-radius: 25px;
+  position: relative;
+  background-color: #FFC4C4;
+  box-shadow: 0 2px 5px #ccc;
+  max-width: 400px;
+  padding: 25px 15px;
+  display: inline-block;
+}
+.ft{
+  text-align: center;
+  color: black;
+}
